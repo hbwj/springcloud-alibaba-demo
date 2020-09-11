@@ -1,6 +1,7 @@
 HELP.md
 mvnw
 mvnw.cmd
+.DS_Store
 target/
 !.mvn/wrapper/*
 !**/src/main/**/target/
