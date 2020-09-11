@@ -1,0 +1,22 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: cloud-alibaba-comsumer
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: f0d76b0e-fd65-4d7d-92d3-41421d2d62e0
+        group: TEST_GROUP
+        register-enabled: false
+        #使用sentinel 控制台
+#    sentinel:
+#      transport:
+#        port: 8721
+#        dashboard: localhost:8080
+
+feign:
+  sentinel:
+    enabled: true
