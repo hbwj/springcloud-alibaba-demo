@@ -12,7 +12,7 @@ public class SpringcloudAlibabaConsumer {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(SpringcloudAlibabaConsumer.class);
+        SpringApplication.run(SpringcloudAlibabaConsumer.class,args);
     }
 
 

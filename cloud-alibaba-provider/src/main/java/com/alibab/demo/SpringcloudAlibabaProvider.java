@@ -12,7 +12,7 @@ public class SpringcloudAlibabaProvider {
 
     public static void main(String[] args) throws InterruptedException {
 
-        SpringApplication.run(SpringcloudAlibabaProvider.class);
+        SpringApplication.run(SpringcloudAlibabaProvider.class,args);
 
     }
 
